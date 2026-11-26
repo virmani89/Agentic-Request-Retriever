@@ -1,0 +1,12 @@
+<server>
+<requests>
+<Session.loginRq userName="*****" password="*****" />
+<OnlineData.loadPolicyRq policyID="257462" />
+<OnlineData.loadHistoryRq historyID="781455" />
+<ManuScript.getValueRq field="GetLegacyProducer_Events.Value" manuscript="Carrier_FinancialForeFront_Pages_US_10_0_0_0" />
+<ManuScript.getValueRq field="GetLegacyProducer_Events.SavePostEventRun" manuscript="Carrier_FinancialForeFront_Pages_US_10_0_0_0" />
+<!--<ManuScript.getValueRq field="PolicySynchronization.AutoSynchronizeRequest1" manuscript="Carrier_FinancialEPL_Pages_US_10_0_0_0" />-->
+<OnlineData.storePolicyRq manuScriptID="Carrier_FinancialForeFront_Pages_US_10_0_0_0" />
+<Session.closeRq />
+</requests>
+</server>

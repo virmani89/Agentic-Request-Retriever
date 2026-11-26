@@ -1,0 +1,7 @@
+<server>
+<requests>
+<Session.loginRq userName="*****" password="*****" />
+<OnlineData.deletePolicyRq policyID="134053" deleteType="0" />
+<Session.closeRq />
+</requests>
+</server>

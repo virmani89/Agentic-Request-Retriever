@@ -1,0 +1,11 @@
+<server>
+<requests>
+<Session.loginRq userName="*****" password="*****" />
+<OnlineData.loadPolicyRq policyID="" />
+<OnlineData.loadHistoryRq historyID="" />
+<!--Generate Binder-->
+<ManuScript.getValueRq field="GenerateBinder.Value" manuscript="Carrier_FinancialForeFront_Pages_US_10_0_0_0" />
+<OnlineData.storePolicyRq manuScriptID="Carrier_FinancialForeFront_Pages_US_10_0_0_0" />
+<Session.closeRq />
+</requests>
+</server>

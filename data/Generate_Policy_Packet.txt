@@ -1,0 +1,11 @@
+<server>
+<requests>
+<Session.loginRq userName="*****" password="*****" />
+<OnlineData.loadPolicyRq policyID="" />
+<OnlineData.loadHistoryRq historyID="" />
+<!--Generate Policy Packet-->
+<ManuScript.getValueRq field="PolicyArchive_ControlFile_Events.Value_SingleFile" manuscript="Carrier_FinancialForeFront_Pages_US_10_0_0_0" />
+<OnlineData.storePolicyRq manuScriptID="Carrier_FinancialForeFront_Pages_US_10_0_0_0" />
+<Session.closeRq />
+</requests>
+</server>

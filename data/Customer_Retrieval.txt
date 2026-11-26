@@ -1,0 +1,18 @@
+<server>
+<requests>
+<Session.loginRq userName="*****" password="*****" />
+<RequestBase.SimpleIntegrationRq name="GetCustomer" responseSelect="RequestBase.SimpleIntegrationRs/Envelope/Body/GetCustomerResponse/GetCustomerReply"
+responseSessionPath="_IntegrationData^CustomerRetrievalResponse">
+<GetCustomerRequest>
+<ControlNumber>0017816413</ControlNumber>
+<SystemId>V9</SystemId>
+<UserId>ITFLDCT</UserId>
+</GetCustomerRequest>
+</RequestBase.SimpleIntegrationRq>
+<Session.closeRq />
+</requests>
+</server>
+
+
+
+SetValue--CustomerRetrieval_Events.Value
