@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from langchain_core.tools import tool
 
 
-QUERY_FOLDER = r"D:\Duckcreek\DC_Requests"
+QUERY_FOLDER = r"C:\Users\Karan PC\LangGraph\AgenticRequestRetriever_fine _donechanges_withGraph_Text_JSON_FastSearching_P - Copy\data"
 
 SUPPORTED_EXTENSIONS = (".txt", ".sql", ".json")
 
